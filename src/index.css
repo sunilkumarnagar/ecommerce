@@ -47,7 +47,7 @@ button {
 }
 
 .button-secondary {
-  color: rgb(33, 33, 33);
+  color: rgb(33, 33, 33); 
   background: white;
   border: 1px solid rgb(200, 200, 200);
   border-radius: 5px;
