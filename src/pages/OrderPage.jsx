@@ -1,40 +1,10 @@
 import './OrderPage.css';
-import './Header.css';
+import { Header } from '../components/Header';
 
 export function OrderPage() {
     return (
         <>
-            <div className="header">
-                <div className="left-section">
-                    <a href="index.html" className="header-link">
-                        <img className="logo"
-                            src="images/logo-white.png" />
-                        <img className="mobile-logo"
-                            src="images/mobile-logo-white.png" />
-                    </a>
-                </div>
-
-                <div className="middle-section">
-                    <input className="search-bar" type="text" placeholder="Search" />
-
-                    <button className="search-button">
-                        <img className="search-icon" src="images/icons/search-icon.png" />
-                    </button>
-                </div>
-
-                <div className="right-section">
-                    <a className="orders-link header-link" href="orders.html">
-
-                        <span className="orders-text">Orders</span>
-                    </a>
-
-                    <a className="cart-link header-link" href="checkout.html">
-                        <img className="cart-icon" src="images/icons/cart-icon.png" />
-                        <div className="cart-quantity">3</div>
-                        <div className="cart-text">Cart</div>
-                    </a>
-                </div>
-            </div>
+            <Header />
 
             <div className="orders-page">
                 <div className="page-title">Your Orders</div>
@@ -82,7 +52,7 @@ export function OrderPage() {
                             </div>
 
                             <div className="product-actions">
-                                <a href="tracking.html">
+                                <a href="tracking">
                                     <button className="track-package-button button-secondary">
                                         Track package
                                     </button>
@@ -110,7 +80,7 @@ export function OrderPage() {
                             </div>
 
                             <div className="product-actions">
-                                <a href="tracking.html">
+                                <a href="tracking">
                                     <button className="track-package-button button-secondary">
                                         Track package
                                     </button>
@@ -161,7 +131,7 @@ export function OrderPage() {
                             </div>
 
                             <div className="product-actions">
-                                <a href="tracking.html">
+                                <a href="tracking">
                                     <button className="track-package-button button-secondary">
                                         Track package
                                     </button>
